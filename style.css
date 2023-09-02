@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+.login-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.logo img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn-primary {
+    background-color: #df76e9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10%;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #df76e9;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 15px;
+}
+/* Set the video to cover the entire viewport */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Place it behind other content */
+}
+
+/* Style your login container or other content as needed */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background to make text more readable */
+}

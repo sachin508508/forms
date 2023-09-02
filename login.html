@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<title>Login Page</title>
+<style>
+    input{
+        width: 100px;
+        height: 40px;
+        font-size: 25px;
+    }
+    label{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+</style>
+
+
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="fire_-_33072 (Original).mp4" type="video/mp4">
+    </video>
+    <div class="login-container">
+        <div class="logo">
+            <img src="bg4.jpeg" alt="Instagram Logo">
+        </div>
+        <form>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button class="btn-primary" type="submit">Log In</button>
+        </form>
+        <div class="signup-link">
+            Don't have an account? <a href="index.html">Sign up</a>
+        </div>
+    </div><script>
+        const video = document.getElementById("bg-video");
+    
+        video.playbackRate = 0.5; 
+    </script>
+</body>
+</html>
